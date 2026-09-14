@@ -1,0 +1,50 @@
+{
+  "slides": [
+    {
+      "tipo": "portada",
+      "kicker": "Peritaje meteorológico · Región del Biobío",
+      "imagen_fondo": "/mnt/user-data/uploads/mapa_sinoptico_20260716_1500Z.png",
+      "titulo": "La geofísica detrás del temporal del 16 de julio de 2026",
+      "subtitulo": "Reconstrucción atmosférica del evento: viento, precipitación y sus extremos estadísticos.",
+      "chips": [
+        {
+          "valor": "~984 hPa",
+          "caption": "Presión superficie"
+        },
+        {
+          "valor": "105 km/h",
+          "caption": "Ráfaga máx."
+        },
+        {
+          "valor": "126 mm",
+          "caption": "Lluvia 48 h"
+        }
+      ]
+    },
+    {
+      "tipo": "contexto",
+      "kicker": "Marco sinóptico",
+      "numero": "01",
+      "titulo": "Una baja segregada fría en niveles medios",
+      "texto": "En 500 hPa, un núcleo de baja presión con aire frío (−32°C) quedó aislado de la corriente del oeste frente a la costa. Esta configuración de bloqueo dirigió flujo del norte sobre el Biobío y sostuvo el temporal durante varios días.",
+      "imagen": "/mnt/user-data/uploads/mapa_sinoptico_20260716_1500Z.png",
+      "fuente": "ERA5 (Copernicus CDS) · geopotencial 500 hPa · 15-jul-2026 12:00 UTC"
+    },
+    {
+      "tipo": "hallazgo",
+      "kicker": "Viento · Análisis de extremos",
+      "numero": "02",
+      "label": "Período de retorno estimado (Gumbel)",
+      "cifra": "≈ 140 años",
+      "texto": "La ráfaga de 105 km/h no tiene precedente en los 35 años de reanálisis homogéneo para julio en el punto del sitio (máximo previo: 88 km/h).",
+      "imagen": "/mnt/user-data/uploads/mapa_sinoptico_20260716_1500Z.png",
+      "fuente": "Valores extremos (Gumbel/GEV) · ERA5 julio 1991–2025 · IC bootstrap"
+    },
+    {
+      "tipo": "contacto",
+      "correo": "metgeo.spa@gmail.com",
+      "whatsapp": "+56 9 7922 6274",
+      "cierre": "¿Necesitas caracterizar un evento meteorológico? Escríbenos."
+    }
+  ]
+}
